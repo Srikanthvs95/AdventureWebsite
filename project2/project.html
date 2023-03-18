@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTURE</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <!-- Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Exolore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="images/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <!--Events Section-->
+    <section class="events">
+        <div class="title">
+            <h1>Upcomming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img1.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nemo quod autem omnis et molestias
+                    odio adipisci maiores unde dolore.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="images/img2.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime nemo quod autem omnis et molestias
+                    odio adipisci maiores unde dolore.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam magni perferendis commodi sequi
+                recusandae
+                veniam soluta dolorem vero architecto. Tenetur ab voluptatem veritatis blanditiis vel saepe temporibus
+                incidunt
+                natus totam.</P>
+            <a href="#" class="ctn">learn more</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt voluptatibus autem atque quia
+                    nam rerum, at earum, dolore tempora exercitationem sed corporis molestiae suscipit vero distinctio
+                    laborum porro veniam!</P>
+                    <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./images/img4.jpg" alt="">
+                    <img src="./images/img3.jpg" alt="">
+                    <img src="./images/img5.jpg" alt="">
+                    <img src="./images/img6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <p>10th cross vigneshwaranagr Bangalore | phone: 7975682605 | Email: srikanthbalaji0@gmail.com </p>
+        <p>CopyRight @ 2023 Outdoorr Adventure</p>
+    </section>
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
